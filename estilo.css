@@ -1,0 +1,72 @@
+body {
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #007bff;
+    height: 300px;
+}
+
+header img {
+    border: solid 10px #fff;
+    border-radius: 50%;
+    transform: translateY(15px);
+    width: 200px;
+    box-shadow: 1px 1px 1px #555;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Nuevo estilo: margen inferior para separar las tarjetas */
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.card-text {
+    color: #495057;
+}
+
+.animated {
+    animation-duration: 1s;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px; 
+    margin-top: 20px; 
+}
